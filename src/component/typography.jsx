@@ -17,19 +17,19 @@ const Typography = () => {
 
                 <div className="col-md-4">
                     <h1>Paragraphs looking like headings</h1>
-                    <p class="h1">h1. Bootstrap heading</p>
-                    <p class="h2">h2. Bootstrap heading</p>
-                    <p class="h3">h3. Bootstrap heading</p>
-                    <p class="h4">h4. Bootstrap heading</p>
-                    <p class="h5">h5. Bootstrap heading</p>
-                    <p class="h6">h6. Bootstrap heading</p>
+                    <p className="h1">h1. Bootstrap heading</p>
+                    <p className="h2">h2. Bootstrap heading</p>
+                    <p className="h3">h3. Bootstrap heading</p>
+                    <p className="h4">h4. Bootstrap heading</p>
+                    <p className="h5">h5. Bootstrap heading</p>
+                    <p className="h6">h6. Bootstrap heading</p>
                 </div>
 
                 <div className="col-md-4">
-                    <h1 class="display-1">Display 1</h1>
-                    <h1 class="display-2">Display 2</h1>
-                    <h1 class="display-3">Display 3</h1>
-                    <h1 class="display-4">Display 4</h1>
+                    <h1 className="display-1">Display 1</h1>
+                    <h1 className="display-2">Display 2</h1>
+                    <h1 className="display-3">Display 3</h1>
+                    <h1 className="display-4">Display 4</h1>
                 </div>
 
             </div>

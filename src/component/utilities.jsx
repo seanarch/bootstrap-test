@@ -13,6 +13,35 @@ const Utilities = () => {
                 </p>
                 <div className="w-50 mx-auto text-center bg-dark text-white">Centered element</div>
             </div>
+
+            <div className="">
+                <div className="d-flex justify-content-start">
+                    <div className="p-2">Flex item 1</div>
+                    <div className="p-2">Flex item 2</div>
+                    <div className="p-2">Flex item 3</div></div>
+                <div className="d-flex justify-content-end">
+                    <div className="p-2">Flex item 1</div>
+                    <div className="p-2">Flex item 2</div>
+                    <div className="p-2">Flex item 3</div></div>
+                <div className="d-flex justify-content-center">
+                    <div className="p-2">Flex item 1</div>
+                    <div className="p-2">Flex item 2</div>
+                    <div className="p-2">Flex item 3</div></div>
+                <div className="d-flex justify-content-between">
+                    <div className="p-2">Flex item 1</div>
+                    <div className="p-2">Flex item 2</div>
+                    <div className="p-2">Flex item 3</div></div>
+                <div className="d-flex justify-content-around">
+                    <div className="p-2">Flex item 1</div>
+                    <div className="p-2">Flex item 2</div>
+                    <div className="p-2">Flex item 3</div></div>
+            </div>
+
+            <div className="d-flex flex-column bd-highlight mb-3 border border-1 border-dark mt-5 shadow-lg">
+                <div className="p-2 bd-highlight">Flex item 1</div>
+                <div className="p-2 bd-highlight">Flex item 2</div>
+                <div className="p-2 bd-highlight">Flex item 3</div>
+            </div>
         </div>
     );
 }

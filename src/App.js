@@ -5,6 +5,8 @@ import Grid from "./component/grid";
 import Typography from "./component/typography";
 import Image from "./component/image";
 import Utilities from "./component/utilities";
+import Table from "./component/table";
+import Alerts from "./component/alerts";
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
       <Typography />
       <Image />
       <Utilities />
+      <Table />
+      <Alerts />
     </div>
   );
 }
