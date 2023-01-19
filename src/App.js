@@ -7,18 +7,20 @@ import Image from "./component/image";
 import Utilities from "./component/utilities";
 import Table from "./component/table";
 import Alerts from "./component/alerts";
+import NavbarTest from "./component/navbar";
+import OtherComponent from "./component/otherComponent";
+import Landing from "./landing/landing";
+import BodyPart from "./landing/bodyPart";
+import SubmitForm from "./landing/submitForm";
+import FooterSection from "./landing/footerSection";
 
 function App() {
   return (
     <div className="App">
-      <Grid />
-      <Button />
-      <Cards />
-      <Typography />
-      <Image />
-      <Utilities />
-      <Table />
-      <Alerts />
+      <Landing />
+      <BodyPart />
+      <SubmitForm />
+      <FooterSection />
     </div>
   );
 }
